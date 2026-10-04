@@ -24,16 +24,6 @@ Sunum oluşturun ya da **PowerPoint (.pptx)** dosyanızı açın, düzenleyin, t
 - Eski sürümlerin ürettiği JSON tabanlı `.present` dosyaları da açılmaya devam eder.
 - **PWA:** Ana ekrana / masaüstüne yüklenebilir, internet olmadan çalışır.
 
-## Çalıştırma
-
-Herhangi bir statik sunucu yeterlidir (service worker için `file://` yerine `http://` gerekir):
-
-```bash
-npm start            # veya: python3 -m http.server 8080
-```
-
-Ardından <http://localhost:8080> adresini açın. GitHub Pages, Netlify vb. bir yere doğrudan yüklenebilir; derleme adımı yoktur.
-
 ## PowerPoint uyumluluğu
 
 ### PowerPoint → Present (açma)
